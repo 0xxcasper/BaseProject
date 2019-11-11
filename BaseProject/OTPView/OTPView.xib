@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OTPView" customModule="Bắc_Ninh" customModuleProvider="target">
+            <connections>
+                <outlet property="txf_Fifth" destination="IMV-xT-SSY" id="r6F-E5-hhV"/>
+                <outlet property="txf_First" destination="bJa-HR-Yeo" id="18M-me-HA6"/>
+                <outlet property="txf_Fourth" destination="GCT-Fg-KCD" id="l8v-QP-e1a"/>
+                <outlet property="txf_Second" destination="nK7-OA-FI5" id="cra-6z-pi9"/>
+                <outlet property="txf_Sixth" destination="bEh-C3-6gu" id="Lv3-Vo-pbH"/>
+                <outlet property="txf_Third" destination="j6j-sV-Gss" id="vL9-hO-hji"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="606" height="145"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Reg-mc-QpO">
+                    <rect key="frame" x="0.0" y="0.0" width="606" height="145"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyR-9n-5v7" customClass="BaseViewApp" customModule="Bắc_Ninh" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="101" height="145"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bJa-HR-Yeo" customClass="BaseUITextField" customModule="Bắc_Ninh" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54.5" width="101" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="og3-Hj-9bc">
+                                    <rect key="frame" x="5" y="144" width="91" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="SUd-k2-x2m"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="bJa-HR-Yeo" firstAttribute="centerY" secondItem="FyR-9n-5v7" secondAttribute="centerY" id="0k5-Hq-Krn"/>
+                                <constraint firstItem="og3-Hj-9bc" firstAttribute="leading" secondItem="FyR-9n-5v7" secondAttribute="leading" constant="5" id="7E6-E5-XBg"/>
+                                <constraint firstAttribute="trailing" secondItem="og3-Hj-9bc" secondAttribute="trailing" constant="5" id="ENc-BE-HIi"/>
+                                <constraint firstItem="bJa-HR-Yeo" firstAttribute="leading" secondItem="FyR-9n-5v7" secondAttribute="leading" id="Es8-IF-O5E"/>
+                                <constraint firstAttribute="trailing" secondItem="bJa-HR-Yeo" secondAttribute="trailing" id="fLM-uN-13x"/>
+                                <constraint firstAttribute="bottom" secondItem="og3-Hj-9bc" secondAttribute="bottom" id="kMC-xC-IHp"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QIq-BT-wfA" customClass="BaseViewApp" customModule="Bắc_Ninh" customModuleProvider="target">
+                            <rect key="frame" x="101" y="0.0" width="101" height="145"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nK7-OA-FI5" customClass="BaseUITextField" customModule="Bắc_Ninh" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54.5" width="101" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Lz-3f-Vww">
+                                    <rect key="frame" x="5" y="144" width="91" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="3Lz-3f-Vww" firstAttribute="centerX" secondItem="QIq-BT-wfA" secondAttribute="centerX" id="GOU-82-rbW"/>
+                                <constraint firstItem="nK7-OA-FI5" firstAttribute="centerY" secondItem="QIq-BT-wfA" secondAttribute="centerY" id="R7R-VR-Wb0"/>
+                                <constraint firstItem="nK7-OA-FI5" firstAttribute="leading" secondItem="QIq-BT-wfA" secondAttribute="leading" id="o98-C6-Lah"/>
+                                <constraint firstAttribute="trailing" secondItem="nK7-OA-FI5" secondAttribute="trailing" id="sog-pj-f0z"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsM-5a-aCn" customClass="BaseViewApp" customModule="Bắc_Ninh" customModuleProvider="target">
+                            <rect key="frame" x="202" y="0.0" width="101" height="145"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j6j-sV-Gss" customClass="BaseUITextField" customModule="Bắc_Ninh" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54.5" width="101" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hws-rN-a7k">
+                                    <rect key="frame" x="5" y="144" width="91" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="j6j-sV-Gss" firstAttribute="centerY" secondItem="dsM-5a-aCn" secondAttribute="centerY" id="9rd-d1-Pmb"/>
+                                <constraint firstItem="hws-rN-a7k" firstAttribute="centerX" secondItem="dsM-5a-aCn" secondAttribute="centerX" id="PWE-5p-u2u"/>
+                                <constraint firstItem="j6j-sV-Gss" firstAttribute="leading" secondItem="dsM-5a-aCn" secondAttribute="leading" id="o00-QF-agp"/>
+                                <constraint firstAttribute="trailing" secondItem="j6j-sV-Gss" secondAttribute="trailing" id="wLv-Nd-n2Q"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mor-0z-gSv" customClass="BaseViewApp" customModule="Bắc_Ninh" customModuleProvider="target">
+                            <rect key="frame" x="303" y="0.0" width="101" height="145"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GCT-Fg-KCD" customClass="BaseUITextField" customModule="Bắc_Ninh" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54.5" width="101" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MzI-ce-pGC">
+                                    <rect key="frame" x="5" y="144" width="91" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="GCT-Fg-KCD" firstAttribute="leading" secondItem="mor-0z-gSv" secondAttribute="leading" id="Ku4-UL-mqD"/>
+                                <constraint firstItem="MzI-ce-pGC" firstAttribute="centerX" secondItem="mor-0z-gSv" secondAttribute="centerX" id="NIk-lb-w0c"/>
+                                <constraint firstItem="GCT-Fg-KCD" firstAttribute="centerY" secondItem="mor-0z-gSv" secondAttribute="centerY" id="tdg-17-e8V"/>
+                                <constraint firstAttribute="trailing" secondItem="GCT-Fg-KCD" secondAttribute="trailing" id="zgT-3h-r2L"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNN-Qi-YA7" customClass="BaseViewApp" customModule="Bắc_Ninh" customModuleProvider="target">
+                            <rect key="frame" x="404" y="0.0" width="101" height="145"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IMV-xT-SSY" customClass="BaseUITextField" customModule="Bắc_Ninh" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54.5" width="101" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfg-O0-JkX">
+                                    <rect key="frame" x="5" y="144" width="91" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="lfg-O0-JkX" firstAttribute="centerX" secondItem="DNN-Qi-YA7" secondAttribute="centerX" id="3IX-tH-KnZ"/>
+                                <constraint firstItem="IMV-xT-SSY" firstAttribute="leading" secondItem="DNN-Qi-YA7" secondAttribute="leading" id="M6S-b1-qe5"/>
+                                <constraint firstAttribute="trailing" secondItem="IMV-xT-SSY" secondAttribute="trailing" id="kih-GS-TfW"/>
+                                <constraint firstItem="IMV-xT-SSY" firstAttribute="centerY" secondItem="DNN-Qi-YA7" secondAttribute="centerY" id="zRx-R9-tHi"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pe5-iZ-7tJ" customClass="BaseViewApp" customModule="Bắc_Ninh" customModuleProvider="target">
+                            <rect key="frame" x="505" y="0.0" width="101" height="145"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bEh-C3-6gu" customClass="BaseUITextField" customModule="Bắc_Ninh" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="54.5" width="101" height="36"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBL-qR-6WW">
+                                    <rect key="frame" x="5" y="144" width="91" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="bEh-C3-6gu" firstAttribute="leading" secondItem="pe5-iZ-7tJ" secondAttribute="leading" id="0yU-hE-hDT"/>
+                                <constraint firstItem="HBL-qR-6WW" firstAttribute="centerX" secondItem="pe5-iZ-7tJ" secondAttribute="centerX" id="O1U-1r-FCM"/>
+                                <constraint firstItem="bEh-C3-6gu" firstAttribute="centerY" secondItem="pe5-iZ-7tJ" secondAttribute="centerY" id="jfP-gA-9Av"/>
+                                <constraint firstAttribute="trailing" secondItem="bEh-C3-6gu" secondAttribute="trailing" id="rLc-o7-2oM"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="lfg-O0-JkX" firstAttribute="width" secondItem="MzI-ce-pGC" secondAttribute="width" id="0CU-uS-ue3"/>
+                        <constraint firstAttribute="trailing" secondItem="pe5-iZ-7tJ" secondAttribute="trailing" id="2iX-Wu-GKX"/>
+                        <constraint firstItem="mor-0z-gSv" firstAttribute="top" secondItem="Reg-mc-QpO" secondAttribute="top" id="44Z-MW-Om0"/>
+                        <constraint firstItem="HBL-qR-6WW" firstAttribute="bottom" secondItem="lfg-O0-JkX" secondAttribute="bottom" id="4Uu-hU-sAP"/>
+                        <constraint firstItem="3Lz-3f-Vww" firstAttribute="bottom" secondItem="og3-Hj-9bc" secondAttribute="bottom" id="8FJ-nJ-DDv"/>
+                        <constraint firstAttribute="bottom" secondItem="dsM-5a-aCn" secondAttribute="bottom" id="BZO-Pg-eu5"/>
+                        <constraint firstAttribute="bottom" secondItem="pe5-iZ-7tJ" secondAttribute="bottom" id="CZB-2e-pJS"/>
+                        <constraint firstItem="pe5-iZ-7tJ" firstAttribute="leading" secondItem="DNN-Qi-YA7" secondAttribute="trailing" id="EOq-g8-sCV"/>
+                        <constraint firstItem="3Lz-3f-Vww" firstAttribute="width" secondItem="og3-Hj-9bc" secondAttribute="width" id="Hfa-LZ-pv3"/>
+                        <constraint firstItem="hws-rN-a7k" firstAttribute="width" secondItem="3Lz-3f-Vww" secondAttribute="width" id="K5W-rj-D5J"/>
+                        <constraint firstItem="3Lz-3f-Vww" firstAttribute="height" secondItem="og3-Hj-9bc" secondAttribute="height" id="KTR-70-5CC"/>
+                        <constraint firstItem="pe5-iZ-7tJ" firstAttribute="top" secondItem="Reg-mc-QpO" secondAttribute="top" id="MCC-Cs-vOp"/>
+                        <constraint firstItem="lfg-O0-JkX" firstAttribute="bottom" secondItem="MzI-ce-pGC" secondAttribute="bottom" id="NAE-uZ-gUi"/>
+                        <constraint firstItem="QIq-BT-wfA" firstAttribute="leading" secondItem="FyR-9n-5v7" secondAttribute="trailing" id="NPL-1K-0fE"/>
+                        <constraint firstItem="DNN-Qi-YA7" firstAttribute="width" secondItem="mor-0z-gSv" secondAttribute="width" id="QP4-JD-CE7"/>
+                        <constraint firstItem="MzI-ce-pGC" firstAttribute="bottom" secondItem="hws-rN-a7k" secondAttribute="bottom" id="QPl-dB-ZAt"/>
+                        <constraint firstItem="QIq-BT-wfA" firstAttribute="top" secondItem="Reg-mc-QpO" secondAttribute="top" id="QzD-Be-ggB"/>
+                        <constraint firstItem="dsM-5a-aCn" firstAttribute="width" secondItem="QIq-BT-wfA" secondAttribute="width" id="Srl-Ca-Ugm"/>
+                        <constraint firstItem="dsM-5a-aCn" firstAttribute="top" secondItem="Reg-mc-QpO" secondAttribute="top" id="Uia-Kb-cD9"/>
+                        <constraint firstItem="mor-0z-gSv" firstAttribute="leading" secondItem="dsM-5a-aCn" secondAttribute="trailing" id="VQR-aL-5WH"/>
+                        <constraint firstItem="hws-rN-a7k" firstAttribute="bottom" secondItem="3Lz-3f-Vww" secondAttribute="bottom" id="VWo-Md-ul6"/>
+                        <constraint firstAttribute="bottom" secondItem="FyR-9n-5v7" secondAttribute="bottom" id="Ytv-An-G9S"/>
+                        <constraint firstItem="mor-0z-gSv" firstAttribute="width" secondItem="dsM-5a-aCn" secondAttribute="width" id="ZZ6-cG-L0g"/>
+                        <constraint firstItem="FyR-9n-5v7" firstAttribute="leading" secondItem="Reg-mc-QpO" secondAttribute="leading" id="afq-Oo-bXN"/>
+                        <constraint firstItem="FyR-9n-5v7" firstAttribute="width" secondItem="Reg-mc-QpO" secondAttribute="width" multiplier="1:6" id="c3C-Sa-SEo"/>
+                        <constraint firstItem="MzI-ce-pGC" firstAttribute="height" secondItem="hws-rN-a7k" secondAttribute="height" id="cqe-gj-PBz"/>
+                        <constraint firstItem="FyR-9n-5v7" firstAttribute="top" secondItem="Reg-mc-QpO" secondAttribute="top" id="h4U-Qz-2zh"/>
+                        <constraint firstItem="MzI-ce-pGC" firstAttribute="width" secondItem="hws-rN-a7k" secondAttribute="width" id="hoa-sZ-CnS"/>
+                        <constraint firstAttribute="bottom" secondItem="QIq-BT-wfA" secondAttribute="bottom" id="nRe-yi-rpr"/>
+                        <constraint firstItem="QIq-BT-wfA" firstAttribute="width" secondItem="FyR-9n-5v7" secondAttribute="width" id="nSf-93-kfe"/>
+                        <constraint firstItem="HBL-qR-6WW" firstAttribute="height" secondItem="lfg-O0-JkX" secondAttribute="height" id="oVk-AD-Fxd"/>
+                        <constraint firstItem="DNN-Qi-YA7" firstAttribute="top" secondItem="Reg-mc-QpO" secondAttribute="top" id="pEC-tk-mda"/>
+                        <constraint firstAttribute="bottom" secondItem="mor-0z-gSv" secondAttribute="bottom" id="qTj-Xg-1V6"/>
+                        <constraint firstItem="lfg-O0-JkX" firstAttribute="height" secondItem="MzI-ce-pGC" secondAttribute="height" id="s3E-wQ-Y7Y"/>
+                        <constraint firstItem="hws-rN-a7k" firstAttribute="height" secondItem="3Lz-3f-Vww" secondAttribute="height" id="uUC-qS-5lI"/>
+                        <constraint firstItem="dsM-5a-aCn" firstAttribute="leading" secondItem="QIq-BT-wfA" secondAttribute="trailing" id="v1s-aI-kM5"/>
+                        <constraint firstItem="DNN-Qi-YA7" firstAttribute="leading" secondItem="mor-0z-gSv" secondAttribute="trailing" id="v6c-iE-nSL"/>
+                        <constraint firstItem="HBL-qR-6WW" firstAttribute="width" secondItem="lfg-O0-JkX" secondAttribute="width" id="xNq-qQ-fbP"/>
+                        <constraint firstAttribute="bottom" secondItem="DNN-Qi-YA7" secondAttribute="bottom" id="yGD-qN-vIc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Reg-mc-QpO" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="0nZ-NT-PYI"/>
+                <constraint firstItem="Reg-mc-QpO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ZH9-jg-ZEd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Reg-mc-QpO" secondAttribute="trailing" id="gEA-V3-4A6"/>
+                <constraint firstItem="Reg-mc-QpO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kwj-dT-yPN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="291.19999999999999" y="-192.05397301349328"/>
+        </view>
+    </objects>
+</document>

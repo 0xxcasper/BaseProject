@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_tf</string>
+		<key>idItem</key>
+		<string>id_car</string>
+		<key>placeholder</key>
+		<string>Biển số xe</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_licensePlates</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>2</integer>
+		<key>typecell</key>
+		<string>type_tf</string>
+		<key>idItem</key>
+		<string>number_promotion_current</string>
+		<key>placeholder</key>
+		<string>Số KM hiện tại</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_clockKm</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_tf</string>
+		<key>idItem</key>
+		<string>vin_number</string>
+		<key>placeholder</key>
+		<string>Số VIN</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_vin</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_tf</string>
+		<key>idItem</key>
+		<string>name_customer</string>
+		<key>placeholder</key>
+		<string>Họ tên khách hàng</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_user</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_tf</string>
+		<key>idItem</key>
+		<string>user_from_car</string>
+		<key>placeholder</key>
+		<string>Người mang xe đến</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_cusBringCar</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>2</integer>
+		<key>typecell</key>
+		<string>type_tf</string>
+		<key>idItem</key>
+		<string>phone</string>
+		<key>placeholder</key>
+		<string>Số điện thoại</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_phone</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_dropdown</string>
+		<key>idItem</key>
+		<string>service_support</string>
+		<key>placeholder</key>
+		<string>Cố vấn dịch vụ</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_service_employee</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_date_pk</string>
+		<key>idItem</key>
+		<string>estimate_time</string>
+		<key>placeholder</key>
+		<string>Thời gian dự kiến</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_opening_time</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_dropdown</string>
+		<key>idItem</key>
+		<string>desc_work</string>
+		<key>placeholder</key>
+		<string>Nội dung công việc</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_payment_service_type</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_dropdown</string>
+		<key>idItem</key>
+		<string>maintenance</string>
+		<key>placeholder</key>
+		<string>Cấp bảo dưỡng</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_maintenancenew</string>
+	</dict>
+	<dict>
+		<key>keyboardType</key>
+		<integer>0</integer>
+		<key>typecell</key>
+		<string>type_tv</string>
+		<key>idItem</key>
+		<string>descript</string>
+		<key>placeholder</key>
+		<string>Nội dung</string>
+		<key>text</key>
+		<string></string>
+		<key>icon</key>
+		<string>ic_info</string>
+	</dict>
+</array>
+</plist>
